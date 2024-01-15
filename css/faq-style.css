@@ -1,0 +1,24 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(253, 230, 238);
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+    
+}
+.hr-line{
+  width: 100%;
+  margin: auto;
+  
+}
+
+.faq-page {
+    cursor: pointer;
+    padding: 30px 20px;
+    margin: auto;
+    text-align:left;
+    color: rgb(101, 153, 250);
+    font-size:30px;
+}
+

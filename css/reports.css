@@ -1,0 +1,62 @@
+
+
+body{
+    background: url("../img/6016317.jpg");
+
+    text-align: left; 
+
+}
+table { 
+
+    /* Styling border collapse for table one. */ 
+
+    border-collapse: collapse; 
+    font-size: 25pt;
+    margin-left: 900px;
+    /*margin-right: auto;*/
+    position:relative;
+    top: 120px;
+} 
+
+ #chart_div{
+     position: absolute;
+     top: 100px;
+     border: 3px;
+     border: rgb(103, 156, 255);
+     width: 400px;
+     height: 200px;
+ } 
+
+table { 
+
+    /* Styling border separate for table two. */ 
+
+    border-collapse: separate; 
+
+} 
+
+
+table, 
+
+td, 
+
+th { 
+
+    border: 1.5px solid rgb(0, 0, 0); 
+
+} 
+
+
+.btn{
+    background-color: #2b4f92;
+    height: 35px;
+    width: 190px;
+    color: rgb(247, 247, 247);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    position: absolute;
+    left: 80%;
+   
+}

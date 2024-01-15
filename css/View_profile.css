@@ -1,0 +1,45 @@
+body{
+    /* background-color: dodgerblue;*/
+        background: url("../img/wallpapersden.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;;
+    }
+    .container {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        margin: auto;
+        width: 500px;
+        text-align: center;
+        width:500px;
+        height:750px;
+        box-shadow:0 0 15px rgba(14,41,57,0.12),0 2px 5px rgba(14,41,57,0.44),inset 0 -1px 2px rgba(14,41,57,0.15);
+        /* float:left; */
+        padding:10px 50px 0;
+        background-color:rgb(210, 223, 247);
+        margin:2% 27%;
+        border-radius:10px
+    }
+    
+    
+    .update-btn{
+        position: absolute;
+        margin-top: 15px;
+       left: 560px;
+       top: 97%;
+     
+      }
+    
+        .btn{
+        width: 175px;
+        height: 50px;
+        background-color:coral;
+        border-radius: 10px;
+        border: 2px rgb(80, 172, 233);
+        color: rgb(247, 247, 247);
+       
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        cursor: pointer;
+      }
+     

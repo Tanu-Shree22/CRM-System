@@ -1,0 +1,58 @@
+/* For Deals Box */
+.crunchify-panel {
+	float: left;
+	width:210px;
+	margin: 25px;
+	padding: 20px;
+	border: 1px solid #ececec;
+	font-size: 15px;
+	position: relative;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 0 0 40px rgba(0, 0, 0, .1) inset;
+	height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background : rgb(209, 193, 209) ;
+}
+ 
+div.crunchify-panel img {
+	border: 1px solid #e8e8e8;
+  
+}
+.crunchify-panel h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: #b32626;
+}
+
+
+.crunchify-deals-coupon {
+    border: 2px dashed #dd7127;
+    padding: 10px ;
+    border-radius: 5px;
+    color: #464646;
+    /* font-size: 13px; */
+    display: inline;
+    margin-bottom: 10px;
+    width: 100%;
+    cursor: pointer;
+    
+}
+.crunchify-deals-coupon p{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+.crunchify-deals-coupon::before {
+    
+    vertical-align: top;
+    /* content: "\f0a4";font-family: "Font Awesome 5 Free"; */
+   
+    margin: 5px 10px;
+}
+ 
+.crunchify-deals-coupon:hover {
+	border: 2px solid #dd7127;
+	text-decoration: none
+}
